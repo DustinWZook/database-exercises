@@ -9,3 +9,4 @@ Create table IF NOT EXISTS albums
  primary key (id)
 );
 DESCRIBE albums;
+SHOW CREATE TABLE albums;
