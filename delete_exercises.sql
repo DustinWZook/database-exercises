@@ -1,0 +1,10 @@
+use codeup_test_db;
+select record_name as ' > 1990' from albums where release_date > 1990;
+delete from albums where release_date > 1990;
+select * from albums;
+select record_name as 'disco' from albums where genre = 'disco';
+delete from albums where genre = 'disco';
+select * from albums;
+select record_name as 'by the Beatles' from albums where artist = 'The Beatles';
+delete from albums where artist = 'The Beatles';
+select * from albums;
